@@ -1,0 +1,37 @@
+AUT - Application Under Test
+Field > Number > Range > 0 > 150
+====================================================================
+Epic > Feature > Story > Scenario /Test case
+Epic > Story > Test Cases/Scenario
+Epic: SDET Job Application
+
+User Story 001 -> 
+  As an Applicant/buyer/user, I should be able to provide my personal information.
+  so that Employer can contact me.
+  
+User Story 002 -> 
+  As an Applicant, I should be able to describe my skills, so that Employer can match
+  my skills for the position.
+  
+Product backlog: Epic 01, Story 001, Story 002
+
+Story 001 > P1 (google agile story prioritization)
+Story 002 > P2
+
+Sprint #1:
+  Sprint backlog: Story 001
+  Length: 2 weeks
+  Story points (Fibonacci): 5
+
+//  1,1,2,3,5,8,13 (this is Fibonacci sequence)
+//  One point is 8 hours.
+
+Test to break it!
+
+driver.manage().
+
+Implicit wait needs to set up only once in the beginning. And it applies for all selenium steps.
+
+(30, TimeUnit.SECONDS) -> it will wait up to 30 seconds for the element in html code.
+
+

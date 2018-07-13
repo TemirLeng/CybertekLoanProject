@@ -1,0 +1,103 @@
+************* Esen`s mentoring about Driver: *************
+
+ For JP Morgan they have: nexus repo (repository)
+
+"Raising ticket": If you have any issue, you should create/raise a ticket,
+ and make a meeting to discuss the issue. And if your manager will come up with 
+ a question why you didn`t complete certain task, you may say "I already reported 
+ it to you, so you are aware of it, so better if you fix it asap".
+ 
+ Normally company has scrum meeting every day, where you discuss 
+ what you did yesterday and what you`re going to do today.
+ (Your answer is like "I was automating this test case yesterday, 
+ and today i`ll be doing the same). You should report to QA lead/manager, 
+ or Developer lead/manager. Because Scrum Master - is a person who just track 
+ what everybody is doing, who just updates.
+ 
+ Why i use maven? i use maven to not do hard coding, implementing all JAR files
+ with the dependencies.
+ 
+ SDET job is:
+ -> get a test case
+ -> read the steps
+ -> automate it in selenium
+ -> help manual testers ))
+ 
+ MANUAL job is:
+ -> create test case
+ -> follow their own testcase
+ -> manually test it
+ -> go to the meetings (they say i`m analyzing ..., investigating this functionality)
+  
+=====================================================================================
+
+KT ---> KNOWLEDGE TRANSFER
+When team member is leaving the company, he should do KT sessions,
+for example: during 2 weeks everyday from 10:00-11:30am.
+
+TCS -------> TATA CONSULTONG SERVICE (contract)
+
+=====================================================================================
+*** Eclipse and Selenium - are completely independeent softwares ***
+
+Eclipse needs to launch a Chrome driver, 
+that`s why we use SYSTEM class that Java provides (system.setProperty)
+
+We set the driver even we launch a browser
+Driver -> Giving an access to control a browser
+When we launch a new chrome = call new session, we start from scratch.
+IE(Internet Explorer) has some disadvantagies.
+Normally broswer can stpre some cache, memorizes everything, goves you some hints.
+When you use selenium and launch it, it doesn`t memorize, everything new
+Very powerful keyword in java -> is <<NEW>> (in JAVA, in Selenium)
+Starts a new object, something actually created in java.
+
+For example: 
+1) String s = new String("Hi");
+   it finds a specific place in the memory, s = is a reference, directly pointing to the "Hi"
+
+2) WebDriver driver = new ChromeDriver();
+   //  Constructor has been executed    
+   //  public ChromeDriver(){}
+   //  goes to the system and check the driver if it`s set
+   //  launch  Chrome
+   //  opens default webpage --- if we don`t specify the driver
+   //  set system property - is a MUST
+   //  if we already have a driver and already have selenium, not having the browser itself, 
+   //  --> it throws another exception
+   
+   // Precondition - having actual browser
+   
+   *** I don`t know every single method, but i can handle/automate any scenario
+   
+   driver = is a reference
+   polymorphism ==> have access to all the members of the webdriver.
+   we need to cast it, to get all the methods/options from the webdriver.
+   
+   //driver -> https (window)
+   Window/webpage => memory in the heap, that`s why it never sees the other page,
+   we should explicitly to switch the other window.
+   
+   "get" method takes String, takes to specific URL
+   Selenium API - bunch of methods together
+   To do some automation better have some idea about HTML, the page is full of different
+   Webelements. Locators in Selenium - is a multiple options that selenium prod=vides to find
+   specific location (id/name/xpath/css/link text/partial link text).
+   Any action you want to do on the oage the locators will be invoked.
+   
+   HTLM - is a core knowledge to find any locator of the WebElement.
+   
+   WebElement - is a datatype like any String or etc...
+   WebElement methods: sendkeys, click.
+
+   *** ORGANIZE YOUR CODE !!! ***
+
+   // By.id ==> By is a Class
+   // By b = By.id...
+   
+   driver.navigate().back();   //forward()  
+   //public WebElement requestQuotBtn (By.id)
+   //public List<WebElement> findElements(){}
+   
+   findelements will accept some locators, 
+=======================================================================================

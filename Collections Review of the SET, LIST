@@ -1,0 +1,53 @@
+=======================================================================
+List and Set both are collection, store same value. They are interfaces, 
+we cannot instanciate them.
+Set doesn`t allow the dublicate values.
+
+// Set --> HashSet
+=======================================================================
+Task:
+Create a Set<String>
+Create a method
+name: addValue
+param: String value
+
+That adds value to the set but tells user "value already exist" and
+throws runtime exception
+If value doesn`t exist in the set collection then simply add the value
+=======================================================================
+Pseudo code:
+1. create method (void)
+2. check the value if already exists in the set
+3. add or throw exception
+=======================================================================
+MAP --> (is a collection, but is not iterable) an interface that can store
+values with the unique keys attached to the value.
+
+"John" --> I can give a key for the value "John"
+
+  ***   Key --> are always unique
+  *** Value --> Can be duplicate
+=======================================================================
+DNS domain system (when you are going to Google, you are actually going to the IP address.)
+=======================================================================
+Big-O-notation
+
+//Test Case is Test Annotation in TestNG
+=======================================================================
+TASK:
+
+1. Create utility class DataStorage
+2. Declare map with String key and String value
+3. Create method that adds value with the key
+name: addData
+4. Create method that gets value with the key
+name: getData
+
+=======================================================================
+
+
+
+
+
+
+

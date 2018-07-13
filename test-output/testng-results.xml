@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="41513" started-at="2018-07-13T16:40:36Z" finished-at="2018-07-13T16:41:17Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="41513" started-at="2018-07-13T16:40:36Z" finished-at="2018-07-13T16:41:17Z">
+      <class name="pageObjectModel.CTLPersonalPageRunner">
+        <test-method status="PASS" signature="personalInfoPage()[pri:1, instance:pageObjectModel.CTLPersonalPageRunner@1cbf6e72]" name="personalInfoPage" duration-ms="14470" started-at="2018-07-13T16:40:36Z" finished-at="2018-07-13T16:40:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- personalInfoPage -->
+        <test-method status="PASS" signature="contactInfoPage()[pri:2, instance:pageObjectModel.CTLPersonalPageRunner@1cbf6e72]" name="contactInfoPage" duration-ms="10273" started-at="2018-07-13T16:40:51Z" finished-at="2018-07-13T16:41:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactInfoPage -->
+        <test-method status="PASS" signature="employmentInfoPage()[pri:3, instance:pageObjectModel.CTLPersonalPageRunner@1cbf6e72]" name="employmentInfoPage" duration-ms="6794" started-at="2018-07-13T16:41:01Z" finished-at="2018-07-13T16:41:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- employmentInfoPage -->
+        <test-method status="PASS" signature="financialInfoPage()[pri:4, instance:pageObjectModel.CTLPersonalPageRunner@1cbf6e72]" name="financialInfoPage" duration-ms="9847" started-at="2018-07-13T16:41:08Z" finished-at="2018-07-13T16:41:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- financialInfoPage -->
+      </class> <!-- pageObjectModel.CTLPersonalPageRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

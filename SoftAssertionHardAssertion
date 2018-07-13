@@ -1,0 +1,48 @@
+Soft Assertion Hard Assertion
+
+-> Assert => is a class that comes from testing framework/library and it has
+different types of assertion methods:
+ex: assertEquals(actualResult, expectedResult);4
+    assertTrue(boolean);
+    assertFalse(boolean);
+    
+------------------------------------------------------------------------------
+Hard assertions => terminates the test execution when it fails.
+It only terminates the execution of @Test annotation
+
+SoftAssert => class that comes from TestNG and it handles the soft assertions.
+Soft assertions => Doesn`t terminate the test execution even it fails.
+It simply memorizes which assertion failed.
+assertAll ==> a method that comes from SoftAssert class and it reports all the 
+memorized failures.
+
+Unless you use assertAll method explicitly in the end of the test it doesn`t report
+failures.
+
+Soft assertion can generate invalid report. Be careful!
+
+------------------------------------------------------------------------------
+      findElement() vs findElements()
+
+findElement ===> this method returns WebElement type.
+findElements ==> returns List<WebElement>
+
+Utility classes ==> generic
+Report ==>
+
+custom message is a last argument of an assertion
+(having a proper message is very important)
+
+VERIFICATION is a soft assertion
+ASSERTION is hard assertion
+
+------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
